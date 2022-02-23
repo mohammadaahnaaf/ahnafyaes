@@ -18,13 +18,14 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 const About = () => (
   <Main
     title="About"
-    description="Learn about S A Saharukh"
+    description="Learn about Mohammed Ahnaf"
   >
     <article className="post markdown" id="about">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
           <p>(in about {count} words)</p>
+          <p>This Site is a clone from <a href='https://saharukh.com/'>SA Saharukh</a>'s portfolio</p>
         </div>
       </header>
       <ReactMarkdown

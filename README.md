@@ -1,12 +1,12 @@
 # Personal Website
 
-See: [ahnafyaes.com](https://afnafyaes.org).
+See: [ahnafyaes.tech/](https://www.ahnafyaes.tech/).
 
-My personal website. An [MIT](https://github.com/saharukh/portfolio-site/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
+My personal website. An [MIT](https://github.com/mohammadaahnaaf/portfolio-site/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
 
 ## Adapting this Project
 
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below and review **detailed notes and a checklist on adapting this project [here](./docs/adapting-guide.md)**. Please feel free to reach out to me by filing an issue or emailing me at [help@saharukh.com](mailto:help@saharukh.com) for help configuring your project.
+Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below and review **detailed notes and a checklist on adapting this project [here](./docs/adapting-guide.md)**. Please feel free to reach out to me by filing an issue or emailing me at [Facebook](https://www.facebook.com/aahnaf.19/) for help configuring your project.
 
 ## Contributing
 

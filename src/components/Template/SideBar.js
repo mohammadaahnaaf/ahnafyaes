@@ -4,6 +4,14 @@ import ContactIcons from '../Contact/ContactIcons';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
+const style = {
+  fontFamily: ['Julius Sans One', 'sans-serif']
+}
+
+const styles = {
+  fontFamily: ['Zen Kaku Gothic New', 'sans-serif'],
+  fontSize: '40px',
+}
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
@@ -11,19 +19,18 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>АХЬНАФЯ</h2>
+        <h2 style={styles}>АХЬНАФЯ</h2>
         {/* <h2>AhnÁfİya</h2> */}
-        <h3>Mohámmed Ahnáf Al Rohmány</h3>
-        {/* <p><a href="mailto:mail@saharukh.com">mail@saharukh.com</a></p> */}
-        <p>Engineer, Student, Artist & Poet.</p>
+        <h3 style={style}>Mohámmed Ahnáf Al Rohmány</h3>
+        <p style={style}>Engineer, Student, Artist & Poet.</p>
       </header>
     </section>
 
-    <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Mohammed. I like building things.
+    <section style={style} className="blurb">
+      <h2 style={style}>About</h2>
+      <p style={style}>Hi, I&apos;m Mohammed. I like building things.
         I am a student of Electronics and Communication Engineering <a href="http://www.nu.ac.edu/">(ECE)</a> and
-        Web Application Developer @ <a href="https://ahnafyaes.org/">My Home</a>.
+        Web Application Developer @ <a href="https://ahnafyaes.tech/">My Home</a>.
         {/* Before Arthena I was
         at <a href="https://matroid.com">Matroid</a>
         , <a href="https://planet.com">Planet</a>
@@ -38,7 +45,7 @@ const SideBar = () => (
       </ul>
     </section>
 
-    <section id="footer">
+    <section style={style} id="footer">
       <ContactIcons />
       <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafya.com</Link>.</p>
     </section>

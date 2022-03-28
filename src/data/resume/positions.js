@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 const positions = [
   {
-    company: 'Cookspace',
-    position: 'Mobile Application Developer',
-    link: 'http://cookspace.co/',
-    daterange: 'July 2020 - Present',
+    company: 'Home',
+    position: 'React Frontend Developer',
+    link: 'http://www.ahnafyaes.tech/',
+    daterange: 'March 2020 - Present',
     points: [
       'Devlopented the most beautiful app in Bangladesh',
       'Built production, on-line, end-to-end optimized hybrid mobile app with Flutter',

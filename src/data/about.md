@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a entrepreneur enthusiast. Currently working as a frontend web application developer. where I build modern web application with [React](https://flutter.dev) and at scale. I am particularly interested in projects that touch health and safety, imaging, social impact, AI, and aerospace. If you think I can be helpful to you or would like to meet me, please feel free to get in touch.
+I am a entrepreneur enthusiast. Currently working as a frontend web application developer. where I build modern web application with [React](https://reactjs.org) and at scale. I am particularly interested in projects that touch health and safety, imaging, social impact, AI, and aerospace. If you think I can be helpful to you or would like to meet me, please feel free to get in touch.
 
 # Currently
 
@@ -9,12 +9,12 @@ I'm learing design patterns , Flutter , System Design, Backend Development and s
 
 # Some history
 
-- My parents put a computer in my bedroom in 2007 when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash,The House of the Dead 2, Wolfenstein 3D, and GTA: Vice City. I had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
+- My parents put a computer in my bedroom in 2007 when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash, The House of the Dead 2, Wolfenstein 3D, and GTA: Vice City. I had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
 
 - I still remember installing it from a floppy disk onto our brand new PC. It took years for me to send my first email.
 
 
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
+- At 14, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
 
 - At 8, my parents bought me a Sony digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it and it still works. I've been taking photographs ever since.
 

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+// import Cell from '../components/Projects/Cell';
+// import data from '../data/projects';
 
 const Projects = () => (
   <Main
@@ -18,12 +18,12 @@ const Projects = () => (
           <p>A breaf selection of my Artworks </p>
         </div>
       </header>
-      {data.map((project) => (
+      {/* {data.map((project) => (
         <Cell
           data={project}
           key={project.title}
         />
-      ))}
+      ))} */}
     </article>
   </Main>
 );

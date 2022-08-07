@@ -2,6 +2,32 @@
 
 const data = [
   {
+    title: 'SevenTech',
+    subtitle: 'Tech related E-commerce App',
+    image: 'images/projects/seventech.png',
+    link: 'https://www.seventech.com.bd/',
+    date: '2022-04-22',
+    desc:
+      'Built for SevenTech , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'Stripe, '
+      + 'realtime web socket, '
+      + 'Push Notification ',
+  },
+  {
+    title: 'Ahnafia Tech Web App',
+    subtitle: 'E-commerce App',
+    image: 'images/projects/ahnafia-tech.png',
+    link: 'https://ahnafia-tech.vercel.app/',
+    date: '2021-08-21',
+    desc:
+      'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'Stripe, '
+      + 'realtime web socket, '
+      + 'Push Notification ',
+  },
+  {
     title: 'Ahnafia Bazar Web App',
     subtitle: 'E-commerce App',
     image: 'images/projects/ahnafia-bazar.png',
@@ -14,6 +40,7 @@ const data = [
       + 'realtime web socket, '
       + 'Push Notification ',
   },
+
   {
     title: 'Weather App',
     subtitle: 'This site tell you the live and real-time weather info over 600 cities',
@@ -21,11 +48,11 @@ const data = [
     image: '/images/projects/weather-app.png',
     date: '2020-09-20',
     desc:
-    'Built for Weather App , this a api based realtime weather app . includes '
-    + 'API, '
-    + 'Payment Gateway, '
-    + 'realtime web socket, '
-    + 'Push Notification ',
+      'Built for Weather App , this a api based realtime weather app . includes '
+      + 'API, '
+      + 'Payment Gateway, '
+      + 'realtime web socket, '
+      + 'Push Notification ',
   },
   {
     title: 'Fotoria App',

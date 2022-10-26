@@ -54,17 +54,17 @@ const data = [
       + 'realtime web socket, '
       + 'Push Notification ',
   },
-  {
-    title: 'Fotoria App',
-    subtitle: 'Photo Gallery',
-    link: 'https://fotoria-app.vercel.app/',
-    image: '/images/projects/fotoria.png',
-    date: '2022-03-28',
-    desc:
-      'Launched a Realtime & Current Date and Time '
-      + 'React, Firebase'
-      + 'This site is still on update...',
-  },
+  // {
+  //   title: 'Fotoria App',
+  //   subtitle: 'Photo Gallery',
+  //   link: 'https://fotoria-app.vercel.app/',
+  //   image: '/images/projects/fotoria.png',
+  //   date: '2022-03-28',
+  //   desc:
+  //     'Launched a Realtime & Current Date and Time '
+  //     + 'React, Firebase'
+  //     + 'This site is still on update...',
+  // },
   {
     title: 'My First App',
     subtitle: 'Live Current Date and Time',
@@ -76,16 +76,6 @@ const data = [
       + 'Nothing fancy at all '
       + 'This site uses 5 lines of simple javascript only.',
   },
-  // {
-  //   title: 'Cat Detector',
-  //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-  //   image: '/images/projects/catdetector.jpg',
-  //   date: '2015-05-15',
-  //   desc:
-  //     'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-  //     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-  //     + 'to continue hosting.',
-  // },
 ];
 
 export default data;

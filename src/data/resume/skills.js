@@ -18,15 +18,20 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
+    title: 'Next.JS',
+    competency: 1,
+    category: ['Web Development', 'Javascript', 'Typescript'],
+  },
+  {
     title: 'Bash',
     competency: 2,
     category: ['Tools', 'Languages'],
   },
-  {
-    title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
+  // {
+  //   title: 'Amazon Web Services',
+  //   competency: 4,
+  //   category: ['Web Development', 'Tools'],
+  // },
   {
     title: 'Heroku',
     competency: 2,
@@ -37,21 +42,21 @@ const skills = [
     competency: 5,
     category: ['Backend', 'Databases'],
   },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Backend', 'Databases'],
-  },
-  {
-    title: 'Flutter',
-    competency: 5,
-    category: ['Mobile'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
+  // {
+  //   title: 'ElasticSearch',
+  //   competency: 2,
+  //   category: ['Backend', 'Databases'],
+  // },
+  // {
+  //   title: 'Flutter',
+  //   competency: 5,
+  //   category: ['Mobile'],
+  // },
+  // {
+  //   title: 'Redis',
+  //   competency: 3,
+  //   category: ['Web Development', 'Databases'],
+  // },
   // {
   //   title: 'Data Mining',
   //   competency: 3,
@@ -61,6 +66,11 @@ const skills = [
     title: 'Express.JS',
     competency: 4,
     category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'Firebase',
+    competency: 4,
+    category: ['Web Development', 'JSON', 'Backend'],
   },
   {
     title: 'NestJS',
@@ -82,11 +92,11 @@ const skills = [
   //   competency: 2,
   //   category: ['Tools', 'Data Engineering'],
   // },
-  // {
-  //   title: 'Google Cloud Compute',
-  //   competency: 2,
-  //   category: ['Tools', 'Web Development'],
-  // },
+  {
+    title: 'Google Cloud Compute',
+    competency: 2,
+    category: ['Tools', 'Web Development'],
+  },
   // {
   //   title: 'Numpy',
   //   competency: 3,
@@ -147,11 +157,11 @@ const skills = [
   //   competency: 3,
   //   category: ['Data Science', 'Javascript'],
   // },
-  {
-    title: 'GraphQL',
-    competency: 1,
-    category: ['Web Development', 'Databases'],
-  },
+  // {
+  //   title: 'GraphQL',
+  //   competency: 1,
+  //   category: ['Web Development', 'Databases'],
+  // },
   // {
   //   title: 'Pandas',
   //   competency: 5,

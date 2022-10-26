@@ -7,13 +7,13 @@ const degrees = [
   },
   {
     school: 'Birshreshtha Munshi Abdur Rouf Public College',
-    degree: 'HSC',
+    degree: 'HSC, Science',
     link: 'https://www.abdurroufcollege.ac.bd/',
     year: '2017 - 2018',
   },
   {
     school: 'Ibn Taimiya School & College',
-    degree: 'SSC',
+    degree: 'SSC, Science',
     link: 'http://www.eduitsc.com/',
     year: '2013 - 2016',
   },

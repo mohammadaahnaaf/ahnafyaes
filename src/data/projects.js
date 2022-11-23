@@ -2,7 +2,21 @@
 
 const data = [
   {
-    title: 'SevenTech',
+    title: "Ahnafia's Bazar Web App",
+    subtitle: 'E-commerce App',
+    image: 'images/projects/ahnafia-bazar.png',
+    link: 'https://ahnafias-bazar.netlify.app/',
+    date: '2021-01-20',
+    desc:
+      'Built for Ahnafia Bazar , this a e-commerce web app . includes '
+      + 'API, '
+      + 'Payment Gateway, '
+      + 'realtime web socket, '
+      + 'Push Notification ',
+  },
+
+  {
+    title: 'SevenTech [Client Project]',
     subtitle: 'Tech related E-commerce App',
     image: 'images/projects/seventech.png',
     link: 'https://www.seventech.com.bd/',
@@ -28,17 +42,17 @@ const data = [
       + 'Push Notification ',
   },
   {
-    title: 'Ahnafia Bazar Web App',
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-bazar.png',
-    link: 'https://ahnafia-bazar.netlify.app/',
-    date: '2021-01-20',
+    title: 'HisabKori [Client Project]',
+    subtitle: 'Inventory management web application.',
+    image: 'images/projects/hisabkori.png',
+    link: 'https://hisabkori.vercel.app/',
+    date: '2022-02-21',
     desc:
-      'Built for Ahnafia Bazar , this a e-commerce web app . includes '
+      'Built for HisabKori , this a tech related e-commerce web app . includes '
       + 'API, '
-      + 'Payment Gateway, '
-      + 'realtime web socket, '
-      + 'Push Notification ',
+      + 'MongoDB, '
+      + 'Next.JS, '
+      + 'MUI, ',
   },
 
   {

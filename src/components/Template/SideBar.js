@@ -22,7 +22,7 @@ const SideBar = () => (
         <h2 style={styles}>АХЬНАФЯ</h2>
         {/* <h2>AhnÁfİya</h2> */}
         <h3 style={style}>Mohámmed Ahnáf Al Rohmány</h3>
-        <p style={style}>Engineer, Student, Artist & Poet.</p>
+        <p style={style}>Engineer | Student | Artist | Poet</p>
       </header>
     </section>
 
@@ -47,7 +47,7 @@ const SideBar = () => (
 
     <section style={style} id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafya.com</Link>.</p>
+      <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafaes.tech</Link>.</p>
     </section>
   </section>
 );

@@ -47,7 +47,7 @@ const SideBar = () => (
 
     <section style={style} id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafaes.tech</Link>.</p>
+      <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafyaes.tech</Link>.</p>
     </section>
   </section>
 );

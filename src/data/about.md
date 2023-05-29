@@ -67,6 +67,5 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 
 - [SA Saharukh](https://saharukh.com/)
 - [Angela Yu](https://twitter.com/yu_angela?lang=en)
-<!-- - [Andrew Mead](https://twitter.com/andrew_j_mead?lang=en) -->
 
 If we are friends and you feel like you belong on this list, you're probably right. I'm sorry I forgot about you. Pester me and I'll add you.

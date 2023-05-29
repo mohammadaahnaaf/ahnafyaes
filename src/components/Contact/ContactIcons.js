@@ -20,17 +20,17 @@ const data = [
     icon: <Facebook />,
   },
   {
-    link: 'https://instagram.com/muhammed_ahnaaf',
+    link: 'https://instagram.com/aahnafiya',
     label: 'Instagram',
     icon: <Instagram />,
   },
   {
-    link: 'https://www.linkedin.com/in/ahnafiaR',
+    link: 'https://www.linkedin.com/in/aahnafiya',
     label: 'LinkedIn',
     icon: <Linkedin />,
   },
   {
-    link: 'https://twitter.com/AhnafurR',
+    link: 'https://twitter.com/aahnafiya',
     label: 'Twitter',
     icon: <Twitter />,
   }

@@ -5,7 +5,9 @@ import ContactIcons from '../Contact/ContactIcons';
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const style = {
-  fontFamily: ['Julius Sans One', 'sans-serif']
+  fontFamily: ['Julius Sans One', 'sans-serif'],
+  fontWeight: 'bold',
+  paddingBottom: '10px'
 }
 
 const styles = {
@@ -21,8 +23,8 @@ const SideBar = () => (
       <header>
         <h2 style={styles}>АХЬНАФЯ</h2>
         {/* <h2>AhnÁfİya</h2> */}
-        <h3 style={style}>Mohámmed Ahnáf Al Rohmány</h3>
-        <p style={style}>Engineer | Student | Artist | Poet</p>
+        <h3 style={style}>Mohammed Ahnafur Rahman</h3>
+        <p style={style}>Software Engineer | Artist | Poet</p>
       </header>
     </section>
 
@@ -47,7 +49,7 @@ const SideBar = () => (
 
     <section style={style} id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Mohammed Ahnaf Al Rahmany <Link to="/">ahnafyaes.tech</Link>.</p>
+      <p className="copyright">&copy; Mohammed Ahnaf <Link to="/">ahnafyaes.tech</Link>.</p>
     </section>
   </section>
 );

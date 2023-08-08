@@ -69,8 +69,7 @@ const courses = [
   {
     title: 'Design Theory and Methodology',
     number: 'MAE 397',
-    link:
-      'https://web.stanford.edu/group/designx_lab/cgi-bin/mainwiki/index.php/ME397_Design_Theory_%26_Methodology_Seminar',
+    link: 'https://web.stanford.edu/group/designx_lab/cgi-bin/mainwiki/index.php/ME397_Design_Theory_%26_Methodology_Seminar',
     university: 'Stanford',
   },
   {

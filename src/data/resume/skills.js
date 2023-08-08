@@ -75,7 +75,7 @@ const skills = [
   {
     title: 'NestJS',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Javascript', 'Typescript'],
   },
   // {
   //   title: 'Flask',

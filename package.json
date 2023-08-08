@@ -29,6 +29,7 @@
     "@vercel/node": "^2.15.8",
     "dayjs": "^1.10.4",
     "gh-pages": "^3.1.0",
+    "nvm": "^0.0.4",
     "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
     "react": "^17.0.1",
@@ -39,8 +40,8 @@
     "react-helmet-async": "^1.0.7",
     "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.0",
-    "react-snap": "^0.2.0",
+    "react-scripts": "^5.0.1",
+    "react-snap": "^1.23.0",
     "rimraf": "^3.0.2",
     "styled-components": "^5.3.3"
   },

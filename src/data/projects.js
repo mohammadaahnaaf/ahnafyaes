@@ -69,7 +69,7 @@ const data = [
   {
     title: 'ToDo App',
     subtitle: 'Simple Todo list app',
-    image: 'images/projects/seventech.png',
+    image: 'images/projects/todo.png',
     link: 'https://ahnafia-todo.vercel.app',
     date: '2023-05-24',
     desc:
@@ -83,7 +83,7 @@ const data = [
   {
     title: 'HisabKori [Client Project]',
     subtitle: 'Inventory management web application.',
-    image: 'images/projects/todo.png',
+    image: 'images/projects/hisabkori.png',
     link: 'https://hisabkori.vercel.app/',
     date: '2022-02-21',
     desc:

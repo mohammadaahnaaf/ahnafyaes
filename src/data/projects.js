@@ -83,7 +83,7 @@ const data = [
   {
     title: 'HisabKori [Client Project]',
     subtitle: 'Inventory management web application.',
-    image: 'images/projects/hisabkori.png',
+    image: 'images/projects/todo.png',
     link: 'https://hisabkori.vercel.app/',
     date: '2022-02-21',
     desc:

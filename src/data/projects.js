@@ -34,7 +34,7 @@ const data = [
     desc:
       'Built for Ahnafia Bazar , this a e-commerce web app . includes '
       + 'API, '
-      + 'Payment Gateway, '
+      + 'Stripe, '
       + 'realtime web socket, '
       + 'Push Notification ',
   },
@@ -66,20 +66,33 @@ const data = [
       + 'realtime web socket, '
       + 'Push Notification ',
   },
+  {
+    title: 'ToDo App',
+    subtitle: 'Simple Todo list app',
+    image: 'images/projects/seventech.png',
+    link: 'https://ahnafia-todo.vercel.app',
+    date: '2023-05-24',
+    desc:
+      'Built for Ahnafia Todo App , this a simple Todo list app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'NodeJS, NextJS, '
+      + 'TailwindCSS ',
+  },
   
-  // {
-  //   title: 'HisabKori [Client Project]',
-  //   subtitle: 'Inventory management web application.',
-  //   image: 'images/projects/hisabkori.png',
-  //   link: 'https://hisabkori.vercel.app/',
-  //   date: '2022-02-21',
-  //   desc:
-  //     'Built for HisabKori , this a tech related e-commerce web app . includes '
-  //     + 'API, '
-  //     + 'MongoDB, '
-  //     + 'Next.JS, '
-  //     + 'MUI, ',
-  // },
+  {
+    title: 'HisabKori [Client Project]',
+    subtitle: 'Inventory management web application.',
+    image: 'images/projects/hisabkori.png',
+    link: 'https://hisabkori.vercel.app/',
+    date: '2022-02-21',
+    desc:
+      'Built for HisabKori , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'Next.JS, '
+      + 'MUI, ',
+  },
 
   // {
   //   title: 'Weather App',

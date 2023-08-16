@@ -93,6 +93,19 @@ const data = [
       + 'Next.JS, '
       + 'MUI, ',
   },
+  {
+    title: 'AmarVote [Client Project]',
+    subtitle: 'Election vote web application.',
+    image: 'images/projects/amarvote.png',
+    link: 'https://www.amarvote.org/',
+    date: '2023-07-21',
+    desc:
+      'Built for HisabKori , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'Next.JS, '
+      + 'MUI, ',
+  },
 
   // {
   //   title: 'Weather App',

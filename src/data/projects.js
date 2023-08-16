@@ -100,7 +100,7 @@ const data = [
     link: 'https://www.amarvote.org/',
     date: '2023-07-21',
     desc:
-      'Built for HisabKori , this a tech related e-commerce web app . includes '
+      'Built for AmarVote , this a tech related e-commerce web app . includes '
       + 'API, '
       + 'MongoDB, '
       + 'Next.JS, '

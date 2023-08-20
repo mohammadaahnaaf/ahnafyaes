@@ -24,7 +24,19 @@ const data = [
       + 'API, '
       + 'realtime web socket, '
   },
-
+  {
+    title: 'EF Dev Task',
+    subtitle: 'Dev Task Application',
+    image: 'images/projects/ef.png',
+    link: 'https://ef-frontend-one.vercel.app/',
+    date: '2023-08-19',
+    desc:
+      'Built for Ahnafia Todo App , this a simple Todo list app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'NodeJS, NextJS, '
+      + 'TailwindCSS ',
+  },
   {
     title: "Ahnafia's Bazar Web App",
     subtitle: 'E-commerce App',
@@ -79,7 +91,7 @@ const data = [
       + 'NodeJS, NextJS, '
       + 'TailwindCSS ',
   },
-  
+
   {
     title: 'HisabKori [Client Project]',
     subtitle: 'Inventory management web application.',

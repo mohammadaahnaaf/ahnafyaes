@@ -2,21 +2,24 @@
 
 const data = [
     {
-        title: 'Calligraphy Ayat',
+        title: 'Pattern Persian',
         subtitle: 'Ahnafya',
-        image: 'images/artworks/ayat.png',
-        tag: ['calligraphy', 'arabic']
+        image: 'images/artworks/tile-2.png',
+        tag: ['pattern', 'arabic']
     },
-    {
-        title: 'Calligraphy Name',
-        subtitle: 'Ahnafya',
-        image: 'images/artworks/name.png',
-        tag: ['calligraphy', 'arabic']
-    },
+
     {
         title: 'Pattern Morocco',
         subtitle: 'Ahnafya',
         image: 'images/artworks/tile-1.jpg',
+        tag: ['pattern', 'arabic']
+    },
+
+ 
+    {
+        title: 'Pattern Morocco',
+        subtitle: 'Ahnafya',
+        image: 'images/artworks/tile-3.png',
         tag: ['pattern', 'arabic']
     },
     {
@@ -25,6 +28,20 @@ const data = [
         image: 'images/artworks/name-2.jpg',
         tag: ['pattern', 'arabic']
     },
+    {
+        title: 'Calligraphy Name',
+        subtitle: 'Ahnafya',
+        image: 'images/artworks/name.png',
+        tag: ['calligraphy', 'arabic']
+    },
+    {
+        title: 'Calligraphy Ayat',
+        subtitle: 'Ahnafya',
+        image: 'images/artworks/ayat.png',
+        tag: ['calligraphy', 'arabic']
+    },
+
+
 ];
 
 export default data;

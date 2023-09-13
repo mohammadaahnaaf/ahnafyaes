@@ -8,9 +8,12 @@ const data = [
     link: 'https://puzzellia.vercel.app/',
     date: '2023-07-20',
     desc:
-      'Built for Puzzellia , this a math games web app . includes '
+      'Built for Puzzellia , this a math games web app for kids to learn math, geomatry, science, geography by playing various educational games . includes '
       + 'API, '
-      + 'realtime web socket, '
+      + 'NestJS, '
+      + 'NextJS, '
+      + 'Tailwind, '
+      + 'MongoDB'
   },
 
   {
@@ -21,8 +24,13 @@ const data = [
     date: '2023-07-12',
     desc:
       'Built for Red Rich club , this a Hotel, Resort web app . includes '
-      + 'API, '
-      + 'realtime web socket, '
+      + 'NestJS, '
+      + 'NextJS, '
+      + 'Tailwind, '
+      + 'MongoDB, '
+      + 'Git, '
+      + 'Vercel, '
+      + 'And many more..., '
   },
   {
     title: 'EF Dev Task',
@@ -31,11 +39,10 @@ const data = [
     link: 'https://ef-frontend-one.vercel.app/',
     date: '2023-08-19',
     desc:
-      'Built for Ahnafia Todo App , this a simple Todo list app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'NodeJS, NextJS, '
-      + 'TailwindCSS ',
+      'EF DEV TASK is a dev task from Electronic First. Electronic First is a video games selling company based in Dubai, UAE. This a task app made with VueJS and css. includes '
+      + 'HTML 5, '
+      + 'VueJS, '
+      + 'Vanila CSS ',
   },
   {
     title: "Ahnafia's Bazar Web App",
@@ -44,11 +51,13 @@ const data = [
     link: 'https://ahnafias-bazar.netlify.app/',
     date: '2021-01-20',
     desc:
-      'Built for Ahnafia Bazar , this a e-commerce web app . includes '
+      'Built for Ahnafia Bazar , this a e-commerce business web app . includes '
       + 'API, '
       + 'Stripe, '
-      + 'realtime web socket, '
-      + 'Push Notification ',
+      + 'CommerceJS, '
+      + 'ReactJS, MaterialUI, '
+      + 'And many more...'
+      ,
   },
 
   {
@@ -61,22 +70,8 @@ const data = [
       'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
       + 'API, '
       + 'Stripe, '
-      + 'realtime web socket, '
-      + 'Push Notification ',
-  },
-
-  {
-    title: 'SevenTech [Client Project]',
-    subtitle: 'Tech related E-commerce App',
-    image: 'images/projects/seventech.png',
-    link: 'https://www.seventech.com.bd/',
-    date: '2022-04-22',
-    desc:
-      'Built for SevenTech , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'realtime web socket, '
-      + 'Push Notification ',
+      + 'React, '
+      + 'MaterialUI ',
   },
   {
     title: 'ToDo App',
@@ -90,6 +85,22 @@ const data = [
       + 'MongoDB, '
       + 'NodeJS, NextJS, '
       + 'TailwindCSS ',
+  },
+  {
+    title: 'SevenTech [Client Project]',
+    subtitle: 'Tech related E-commerce App',
+    image: 'images/projects/seventech.png',
+    link: 'https://www.seventech.com.bd/',
+    date: '2022-04-22',
+    desc:
+      'Built for SevenTech , this a tech related e-commerce web app . includes '
+      + 'NextJS v-13, '
+      + 'Tailwind, '
+      + 'MongoDB, '
+      + 'AWS, '
+      + 'Vercel, '
+      + 'Git, '
+      + 'NextJS',
   },
 
   {

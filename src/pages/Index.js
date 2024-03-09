@@ -2,12 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import ContactIconLarge from '../components/Contact/ContactIconLarge';
 
-const style = {
-  fontFamily: ['Julius Sans One', 'sans-serif'],
-  textAlign:'center',
-  fontWeight: 'normal'
-}
 const styles = {
   fontFamily: ['Julius Sans One', 'sans-serif'],
   fontSize: '30px',
@@ -33,6 +29,14 @@ const Index = () => (
             <img alt='me-logo' src='/images/melogo.png' height={2 * 200} width={2 * 200} />
           </div>
         </div>
+      </div>
+
+      <div style={{
+        display: 'grid',
+        justifyItems: 'center',
+        alignItems: 'center'
+      }}>
+        <ContactIconLarge />
       </div>
       {/* <p style={style}> Welcome سلام to my personal website. Please feel free to read more <Link to="/about" style={{ decoration: 'none', fontWeight: 'bold' }}>about me</Link>,
         or you can check out my {' '}

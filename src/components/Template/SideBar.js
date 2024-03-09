@@ -11,7 +11,7 @@ const style = {
 }
 
 function SideBar() {
-  const names = ["АХЬНАФЯ", "আহনাফিয়া", "AHNAFİYA", "احنفــــــــــيه"];
+  const names = ["АХЬНАФЯ", "আহনাফিয়া", "AHNAFYA", "احنفــــــــــيه"];
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -21,6 +21,13 @@ function SideBar() {
       setTimeout(() => { setCurrentIndex(currentIndex + 1) }, 3000)
     }
   }, [currentIndex]);
+
+  const fonts = [
+    ['Noto Sans', "sans-serif"],
+    ['Noto Sans Bengali', 'sans-serif'],
+    ['Noto Sans', "sans-serif"],
+    ['Noto Kufi Arabic', "sans-serif"],
+  ]
 
   return (
     <section id="sidebar">
@@ -32,37 +39,33 @@ function SideBar() {
 
           {names.map((name, index) => {
             return index === currentIndex ? (
-              <h2
+              <div
                 key={index}
                 style={{
-                  fontFamily: index === 3 ? ['Noto Kufi Arabic', "sans-serif"] : ['Noto Sans Bengali', 'sans-serif'],
+                  transform: 'all',
+                  color: 'black',
+                  fontFamily: fonts[index],
                   fontSize: '40px',
+                  fontWeight: '700',
                   opacity: index === currentIndex ? 1 : 0,
                   letterSpacing: index === 1 || index === 3 ? 0 : '3px',
                   transition: 'opacity 1s ease-in-out',
                 }}
               >
                 {name}
-              </h2>
+              </div>
             ) : null
           })}
-          {/* <h2>AhnÁfİya</h2> */}
+
           <h3 style={style}>Mohammed Ahnafur Rahman</h3>
           <p style={style}>Software Engineer | Artist | Poet</p>
         </header>
       </section>
 
       <section style={style} className="blurb">
-        <h2 style={style}>About</h2>
-        <p style={style}>Hi, I&apos;m Mohammed. I like building things.
-          I am a student of Electronics and Communication Engineering <a href="http://www.nu.ac.edu/">(ECE)</a> and
-          Web Application Developer @ <a href="https://ahnafyaes.tech/">My Home</a>.
-          {/* Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>. */}
+        <h2 style={style}>About Me</h2>
+        <p style={style}>Hi, I&apos;m Mohammed. I like building new things. Currently
+          I am a studying Engineering in <a href="http://www.nu.ac.edu/">(ECE)</a> and I am skillful as a Javascript Developer .
         </p>
         <ul className="actions">
           <li>

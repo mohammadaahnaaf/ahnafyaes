@@ -2,22 +2,50 @@
 
 const data = [
   {
-    title: "Puzzellia",
+    title: "ETestPaper (Client Project)",
+    subtitle: "Educational Platform",
+    image: 'images/projects/etestpaper.png',
+    link: 'https://e-test-paper-website.vercel.app',
+    date: '2024-01-01',
+    desc:
+      'Built for ETestPaper , this an educational website for HSC students to learn and test their preparations before final HSC exams. In this project, my role was as a frontend developer. includes '
+      + 'API, '
+      + 'NextJS, '
+      + 'Tailwind, '
+      + 'NodeJS'
+      + 'Git, '
+      + 'Vercel, '
+  },
+  {
+    title: "Wander Woman (Task)",
+    subtitle: "An Women's Travel Site",
+    image: 'images/projects/wander-woman.png',
+    link: 'https://wander-women-task.vercel.app',
+    date: '2023-11-15',
+    desc:
+      'Built for Wander Woman , this a a travel site web app for women. includes '
+      + 'NextJS, '
+      + 'Tailwind, '
+      + 'Git, '
+      + 'Vercel, '
+  },
+  {
+    title: "Puzzellia (Project)",
     subtitle: 'Math Games App',
     image: 'images/projects/puzzellia.png',
     link: 'https://puzzellia.vercel.app/',
     date: '2023-07-20',
     desc:
       'Built for Puzzellia , this a math games web app for kids to learn math, geomatry, science, geography by playing various educational games . includes '
-      + 'API, '
-      + 'NestJS, '
+
       + 'NextJS, '
       + 'Tailwind, '
-      + 'MongoDB'
+      + 'Git, '
+      + 'Vercel, '
   },
 
   {
-    title: "RedRich",
+    title: "RedRich (Project)",
     subtitle: 'Hotel, Resort App',
     image: 'images/projects/redrich.png',
     link: 'https://red-rich.vercel.app/',
@@ -30,10 +58,9 @@ const data = [
       + 'MongoDB, '
       + 'Git, '
       + 'Vercel, '
-      + 'And many more..., '
   },
   {
-    title: 'EF Dev Task',
+    title: 'EF Dev Task (Task)',
     subtitle: 'Dev Task Application',
     image: 'images/projects/ef.png',
     link: 'https://ef-frontend-one.vercel.app/',
@@ -45,7 +72,7 @@ const data = [
       + 'Vanila CSS ',
   },
   {
-    title: "Ahnafia's Bazar Web App",
+    title: "Ahnafia's Bazar (Project)",
     subtitle: 'E-commerce App',
     image: 'images/projects/ahnafia-bazar.png',
     link: 'https://ahnafias-bazar.netlify.app/',
@@ -57,11 +84,11 @@ const data = [
       + 'CommerceJS, '
       + 'ReactJS, MaterialUI, '
       + 'And many more...'
-      ,
+    ,
   },
 
   {
-    title: 'Ahnafia Tech Web App',
+    title: 'Ahnafia Tech Web App (Project)',
     subtitle: 'E-commerce App',
     image: 'images/projects/ahnafia-tech.png',
     link: 'https://ahnafia-tech.vercel.app/',
@@ -74,7 +101,7 @@ const data = [
       + 'MaterialUI ',
   },
   {
-    title: 'ToDo App',
+    title: 'ToDo App (Task)',
     subtitle: 'Simple Todo list app',
     image: 'images/projects/todo.png',
     link: 'https://ahnafia-todo.vercel.app',
@@ -86,8 +113,35 @@ const data = [
       + 'NodeJS, NextJS, '
       + 'TailwindCSS ',
   },
+
   {
-    title: 'SevenTech [Client Project]',
+    title: 'HisabKori (Client Project)',
+    subtitle: 'Inventory management web application.',
+    image: 'images/projects/hisabkori.png',
+    link: 'https://hisabkori.vercel.app/',
+    date: '2022-02-21',
+    desc:
+      'Built for HisabKori , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'Next.JS, '
+      + 'MUI, ',
+  },
+  {
+    title: 'AmarVote (Client Project)',
+    subtitle: 'Election vote web application.',
+    image: 'images/projects/amarvote.png',
+    link: 'https://www.amarvote.org/',
+    date: '2023-07-21',
+    desc:
+      'Built for AmarVote , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'MongoDB, '
+      + 'Next.JS, '
+      + 'MUI, ',
+  },
+  {
+    title: 'SevenTech (Client Project)',
     subtitle: 'Tech related E-commerce App',
     image: 'images/projects/seventech.png',
     link: 'https://www.seventech.com.bd/',
@@ -101,33 +155,6 @@ const data = [
       + 'Vercel, '
       + 'Git, '
       + 'NextJS',
-  },
-
-  {
-    title: 'HisabKori [Client Project]',
-    subtitle: 'Inventory management web application.',
-    image: 'images/projects/hisabkori.png',
-    link: 'https://hisabkori.vercel.app/',
-    date: '2022-02-21',
-    desc:
-      'Built for HisabKori , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
-  },
-  {
-    title: 'AmarVote [Client Project]',
-    subtitle: 'Election vote web application.',
-    image: 'images/projects/amarvote.png',
-    link: 'https://www.amarvote.org/',
-    date: '2023-07-21',
-    desc:
-      'Built for AmarVote , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
   },
 
   // {

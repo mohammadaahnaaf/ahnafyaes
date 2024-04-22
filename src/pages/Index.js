@@ -24,7 +24,7 @@ const Index = () => (
     <article className="post" id="index">
       <div>
         <div className="title">
-          <h2 style={styles} data-testid="heading"><Link to="/">Merhaba<span style={styleq}> | مـــرحـــبـــاََ </span></Link></h2>
+          <h2 style={styles} data-testid="heading"><Link to="/">Welcome</Link></h2>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
             <img alt='me-logo' src='/images/melogo.png' height={2 * 200} width={2 * 200} />
           </div>

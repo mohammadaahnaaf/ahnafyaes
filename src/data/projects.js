@@ -17,6 +17,47 @@ const data = [
       + 'Vercel, '
   },
   {
+    title: "TradeCopy",
+    subtitle: "Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.",
+    image: 'images/projects/tradecopy.png',
+    link: 'https://www.tradecopy.io',
+    date: '2024-05-12',
+    desc:
+      `Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at ${<a href='https://www.aitrade.ai/'>AI Trade Inc</a>}`
+      + 'NextJS, '
+      + 'TailwindCSS, '
+      + 'ShadCDN, '
+      + 'Bitbucket, '
+      + 'ReChart, '
+  },
+  {
+    title: "BacktestData",
+    subtitle: "Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.",
+    image: 'images/projects/backtestdata.png',
+    link: 'https://www.backtestdata.com/',
+    date: '2024-06-12',
+    desc:
+      `BacktestData.com is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at ${<a href='https://www.aitrade.ai/'>AI Trade Inc</a>}`
+      + 'NextJS, '
+      + 'TailwindCSS, '
+      + 'ShadCDN, '
+      + 'ReChart, '
+      + 'Bitbucket, '
+  },
+  {
+    title: 'Ahnafia Tech Web App (Project)',
+    subtitle: 'E-commerce App',
+    image: 'images/projects/ahnafia-tech.png',
+    link: 'https://ahnafia-tech.vercel.app/',
+    date: '2021-08-21',
+    desc:
+      'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
+      + 'API, '
+      + 'Stripe, '
+      + 'React, '
+      + 'MaterialUI ',
+  },
+  {
     title: "Wander Woman (Task)",
     subtitle: "An Women's Travel Site",
     image: 'images/projects/wander-woman.png',
@@ -71,75 +112,22 @@ const data = [
       + 'VueJS, '
       + 'Vanila CSS ',
   },
-  {
-    title: "Ahnafia's Bazar (Project)",
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-bazar.png',
-    link: 'https://ahnafias-bazar.netlify.app/',
-    date: '2021-01-20',
-    desc:
-      'Built for Ahnafia Bazar , this a e-commerce business web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'CommerceJS, '
-      + 'ReactJS, MaterialUI, '
-      + 'And many more...'
-    ,
-  },
+  // {
+  //   title: "Ahnafia's Bazar (Project)",
+  //   subtitle: 'E-commerce App',
+  //   image: 'images/projects/ahnafia-bazar.png',
+  //   link: 'https://ahnafias-bazar.netlify.app/',
+  //   date: '2021-01-20',
+  //   desc:
+  //     'Built for Ahnafia Bazar , this a e-commerce business web app . includes '
+  //     + 'API, '
+  //     + 'Stripe, '
+  //     + 'CommerceJS, '
+  //     + 'ReactJS, MaterialUI, '
+  //     + 'And many more...'
+  //   ,
+  // },
 
-  {
-    title: 'Ahnafia Tech Web App (Project)',
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-tech.png',
-    link: 'https://ahnafia-tech.vercel.app/',
-    date: '2021-08-21',
-    desc:
-      'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'React, '
-      + 'MaterialUI ',
-  },
-  {
-    title: 'ToDo App (Task)',
-    subtitle: 'Simple Todo list app',
-    image: 'images/projects/todo.png',
-    link: 'https://ahnafia-todo.vercel.app',
-    date: '2023-05-24',
-    desc:
-      'Built for Ahnafia Todo App , this a simple Todo list app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'NodeJS, NextJS, '
-      + 'TailwindCSS ',
-  },
-
-  {
-    title: 'HisabKori (Client Project)',
-    subtitle: 'Inventory management web application.',
-    image: 'images/projects/hisabkori.png',
-    link: 'https://hisabkori.vercel.app/',
-    date: '2022-02-21',
-    desc:
-      'Built for HisabKori , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
-  },
-  {
-    title: 'AmarVote (Client Project)',
-    subtitle: 'Election vote web application.',
-    image: 'images/projects/amarvote.png',
-    link: 'https://www.amarvote.org/',
-    date: '2023-07-21',
-    desc:
-      'Built for AmarVote , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
-  },
   {
     title: 'SevenTech (Client Project)',
     subtitle: 'Tech related E-commerce App',
@@ -157,42 +145,6 @@ const data = [
       + 'NextJS',
   },
 
-  // {
-  //   title: 'Weather App',
-  //   subtitle: 'This site tell you the live and real-time weather info over 600 cities',
-  //   link: 'https://mohammadaahnaaf.github.io/weather-app/',
-  //   image: '/images/projects/weather-app.png',
-  //   date: '2020-09-20',
-  //   desc:
-  //     'Built for Weather App , this a api based realtime weather app . includes '
-  //     + 'API, '
-  //     + 'Payment Gateway, '
-  //     + 'realtime web socket, '
-  //     + 'Push Notification ',
-  // },
-  // {
-  //   title: 'Fotoria App',
-  //   subtitle: 'Photo Gallery',
-  //   link: 'https://fotoria-app.vercel.app/',
-  //   image: '/images/projects/fotoria.png',
-  //   date: '2022-03-28',
-  //   desc:
-  //     'Launched a Realtime & Current Date and Time '
-  //     + 'React, Firebase'
-  //     + 'This site is still on update...',
-  // },
-
-  // {
-  //   title: 'My First App',
-  //   subtitle: 'Live Current Date and Time',
-  //   link: 'https://mohammadaahnaaf.github.io/my-first-js-app/',
-  //   image: '/images/projects/first-app.png',
-  //   date: '2019-12-28',
-  //   desc:
-  //     'Launched a Realtime & Current Date and Time '
-  //     + 'Nothing fancy at all '
-  //     + 'This site uses 5 lines of simple javascript only.',
-  // },
 ];
 
 export default data;

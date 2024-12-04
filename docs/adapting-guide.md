@@ -63,7 +63,7 @@ Here are answers to questions I've been asked at least twice. I've attempted to 
 
 2. LF / CRLF issues with eslint.
 
-    This is a common Windows development pitfall. See @[FrozenFury](https://github.com/FrozenFury)'s [comment](https://github.com/mldangelo/personal-site/issues/263#issuecomment-759216299) for how to update your eslint config to resolve this issue.
+    This is a common Windows development pitfall. See @[FrozenFury](https://github.com/FrozenFury)'s [comment](https://github.com/imSaharukh/portfolio-site/issues/263#issuecomment-759216299) for how to update your eslint config to resolve this issue.
 
 3. master / main
 

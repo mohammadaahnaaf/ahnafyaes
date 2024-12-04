@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: "Ahnafİya",
+    label: 'S A Saharukh',
     path: '/',
   },
   {
@@ -16,10 +16,6 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
-  // {
-  //   label: 'Artworks',
-  //   path: '/artworks',
-  // },
   {
     label: 'Stats',
     path: '/stats',

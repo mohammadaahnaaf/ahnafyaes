@@ -13,7 +13,6 @@ import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
-import Artworks from '../pages/Artworks';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
 
@@ -54,8 +53,7 @@ const pages = [
 // correct page. See:
 // https://testing-library.com/docs/example-react-router/#reducing-boilerplate
 const renderWithRouter = (ui, { route = '/' } = {}) => {
-  if (typeof window !== undefined)
-    window.history.pushState({}, 'Test page', route);
+  window.history.pushState({}, 'Test page', route);
   return render(ui, { wrapper: BrowserRouter });
 };
 
@@ -67,8 +65,7 @@ test('Renders 404 Page Component', () => {
 
 const checkPageComponent = async (page) => {
   test(`Renders ${page.route} Component`, () => {
-    if (typeof window !== undefined)
-      window.scrollTo = () => { }; // TODO mock this later
+    window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
     const linkElement = screen.getByTestId('heading');
     expect(linkElement).toHaveTextContent(page.heading);

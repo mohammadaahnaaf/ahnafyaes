@@ -40,7 +40,7 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => { }; // pass linter
+    return () => {}; // pass linter
   }, [delay]);
 };
 
@@ -76,9 +76,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:ahnaf1998ff@gmail.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@saharukh.com` : ''}>
         <span>{message}</span>
-        <span> @ahnafyaes.org</span>
+        <span>@saharukh.com</span>
       </a>
     </div>
   );

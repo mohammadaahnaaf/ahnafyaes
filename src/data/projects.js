@@ -2,197 +2,92 @@
 
 const data = [
   {
-    title: "ETestPaper (Client Project)",
-    subtitle: "Educational Platform",
-    image: 'images/projects/etestpaper.png',
-    link: 'https://e-test-paper-website.vercel.app',
-    date: '2024-01-01',
+    title: 'Munchies Food Tech Platform',
+    subtitle: 'Lead Software Engineer for Full System Development',
+    image: '/images/projects/munchies.png',
+    link: 'https://munchies.com.bd/',
+    date: '2022-2024',
     desc:
-      'Built for ETestPaper , this an educational website for HSC students to learn and test their preparations before final HSC exams. In this project, my role was as a frontend developer. includes '
+      'Led the development of Munchies, a comprehensive food tech platform including 3 mobile apps (User, Rider, Restaurant), a user website, and an admin panel. Built with Flutter for mobile apps, React and Next.js for frontend, and Node.js (Express and NestJS) for backend, featuring 4 microservices. Orchestrated system architecture, team collaboration, and efficient implementation to scale for 70k+ users and 300+ restaurants.'
+      + 'Frontend: Flutter, React, Next.js, '
+      + 'Backend: Node.js (Express, NestJS), '
+      + 'Microservices Architecture, '
+      + 'Scalable Infrastructure Design, '
+      + 'Team Leadership and Collaboration',
+  },
+  {
+    title: 'Wifi Security App',
+    subtitle: 'Securing Internet Connections on Mobile Devices',
+    image: '/images/projects/vpn.png',
+    link: 'https://wifisecurityapp.com/',
+    date: '2023',
+    desc:
+      'Developed a VPN app using Flutter for both Android and iOS platforms. Leveraged Android\'s and iOS\'s native VPN APIs to provide secure internet connections on mobile devices. Designed an intuitive user interface and implemented features for seamless VPN usage.'
+      + 'Frontend: Flutter (Dart), '
+      + 'Native VPN APIs (Android, iOS), '
+      + 'Secure Connection Protocols, '
+      + 'Intuitive User Interface',
+  }
+,  
+  {
+    title: 'Examiner App Development',
+    subtitle: 'Revolutionizing Exam Preparation',
+    image: '/images/projects/xm.png',
+    link: 'https://play.google.com/store/apps/details?id=bd.com.examiner.userapp',
+    date: '2021',
+    desc:
+      'Created Examiner exam app with Flutter and Firebase, offering a user-friendly interface and personalized tests. Received positive feedback, enhancing education access and learning outcomes in Bangladesh. Proficient in Flutter and Firebase integration, showcasing strong design and problem-solving skills.'
+      + 'Frontend: Flutter (Dart), '
+      + 'Backend: Firebase, '
+      + 'Push Notification ',
+  },
+  {
+    title: 'ChatOut',
+    subtitle: 'Transforming User Experience and Streamlining Operations Tech Stack',
+    image: '/images/projects/chat.png',
+    link: 'https://play.google.com/store/apps/details?id=co.chatout.merchantApp',
+    date: '2022',
+    desc:
+      'As the lead developer for ChatOut, I orchestrated a major overhaul, improving UI, integrating social media via API, and optimizing communication. Played a key role in database design and backend development, using Flutter, Dart, NestJS, TypeScript, and Node.js for an enhanced user experience and operational efficiency.'
+      + 'Frontend: Flutter (Dart), '
+      + 'Backend: NestJS (TypeScript, Node.js), '
+      + 'Database: MongoDB, '
+      + 'Social Media Integration: API Integration, '
+      + 'Realtime web socket, '
+      + 'Push Notification ',
+  },
+  {
+    title: 'Cookspace Mobile App',
+    subtitle: 'Food Ordaring app',
+    image: '/images/projects/cookspaceApp.png',
+    link: 'https://play.google.com/store/apps/details?id=co.cookspace.user&hl=en',
+    date: '2021',
+    desc:
+      'Built for Cookspace , this a food ordering production mobile app(Android & iOS) . includes '
       + 'API, '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'NodeJS'
-      + 'Git, '
-      + 'Vercel, '
+      + 'Payment Gateway, '
+      + 'realtime web socket, '
+      + 'Push Notification ',
   },
   {
-    title: "Wander Woman (Task)",
-    subtitle: "An Women's Travel Site",
-    image: 'images/projects/wander-woman.png',
-    link: 'https://wander-women-task.vercel.app',
-    date: '2023-11-15',
+    title: 'Delord Shop',
+    subtitle: 'A e-commerce app with all modern features',
+    link: 'https://play.google.com/store/apps/details?id=com.delord.delordshop',
+    image: '/images/projects/delord.png',
+    date: '2021',
     desc:
-      'Built for Wander Woman , this a a travel site web app for women. includes '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'Git, '
-      + 'Vercel, '
+      'This was made for a client whos form Doha Qatar',
   },
   {
-    title: "Puzzellia (Project)",
-    subtitle: 'Math Games App',
-    image: 'images/projects/puzzellia.png',
-    link: 'https://puzzellia.vercel.app/',
-    date: '2023-07-20',
+    title: 'Cat Detector',
+    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    image: '/images/projects/catdetector.jpg',
+    date: '2015-05-15',
     desc:
-      'Built for Puzzellia , this a math games web app for kids to learn math, geomatry, science, geography by playing various educational games . includes '
-
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'Git, '
-      + 'Vercel, '
+      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
+      + 'Over 60,000 cats were classified before server bills made the project too expensive '
+      + 'to continue hosting.',
   },
-
-  {
-    title: "RedRich (Project)",
-    subtitle: 'Hotel, Resort App',
-    image: 'images/projects/redrich.png',
-    link: 'https://red-rich.vercel.app/',
-    date: '2023-07-12',
-    desc:
-      'Built for Red Rich club , this a Hotel, Resort web app . includes '
-      + 'NestJS, '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'MongoDB, '
-      + 'Git, '
-      + 'Vercel, '
-  },
-  {
-    title: 'EF Dev Task (Task)',
-    subtitle: 'Dev Task Application',
-    image: 'images/projects/ef.png',
-    link: 'https://ef-frontend-one.vercel.app/',
-    date: '2023-08-19',
-    desc:
-      'EF DEV TASK is a dev task from Electronic First. Electronic First is a video games selling company based in Dubai, UAE. This a task app made with VueJS and css. includes '
-      + 'HTML 5, '
-      + 'VueJS, '
-      + 'Vanila CSS ',
-  },
-  {
-    title: "Ahnafia's Bazar (Project)",
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-bazar.png',
-    link: 'https://ahnafias-bazar.netlify.app/',
-    date: '2021-01-20',
-    desc:
-      'Built for Ahnafia Bazar , this a e-commerce business web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'CommerceJS, '
-      + 'ReactJS, MaterialUI, '
-      + 'And many more...'
-    ,
-  },
-
-  {
-    title: 'Ahnafia Tech Web App (Project)',
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-tech.png',
-    link: 'https://ahnafia-tech.vercel.app/',
-    date: '2021-08-21',
-    desc:
-      'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'React, '
-      + 'MaterialUI ',
-  },
-  {
-    title: 'ToDo App (Task)',
-    subtitle: 'Simple Todo list app',
-    image: 'images/projects/todo.png',
-    link: 'https://ahnafia-todo.vercel.app',
-    date: '2023-05-24',
-    desc:
-      'Built for Ahnafia Todo App , this a simple Todo list app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'NodeJS, NextJS, '
-      + 'TailwindCSS ',
-  },
-
-  {
-    title: 'HisabKori (Client Project)',
-    subtitle: 'Inventory management web application.',
-    image: 'images/projects/hisabkori.png',
-    link: 'https://hisabkori.vercel.app/',
-    date: '2022-02-21',
-    desc:
-      'Built for HisabKori , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
-  },
-  {
-    title: 'AmarVote (Client Project)',
-    subtitle: 'Election vote web application.',
-    image: 'images/projects/amarvote.png',
-    link: 'https://www.amarvote.org/',
-    date: '2023-07-21',
-    desc:
-      'Built for AmarVote , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'MongoDB, '
-      + 'Next.JS, '
-      + 'MUI, ',
-  },
-  {
-    title: 'SevenTech (Client Project)',
-    subtitle: 'Tech related E-commerce App',
-    image: 'images/projects/seventech.png',
-    link: 'https://www.seventech.com.bd/',
-    date: '2022-04-22',
-    desc:
-      'Built for SevenTech , this a tech related e-commerce web app . includes '
-      + 'NextJS v-13, '
-      + 'Tailwind, '
-      + 'MongoDB, '
-      + 'AWS, '
-      + 'Vercel, '
-      + 'Git, '
-      + 'NextJS',
-  },
-
-  // {
-  //   title: 'Weather App',
-  //   subtitle: 'This site tell you the live and real-time weather info over 600 cities',
-  //   link: 'https://mohammadaahnaaf.github.io/weather-app/',
-  //   image: '/images/projects/weather-app.png',
-  //   date: '2020-09-20',
-  //   desc:
-  //     'Built for Weather App , this a api based realtime weather app . includes '
-  //     + 'API, '
-  //     + 'Payment Gateway, '
-  //     + 'realtime web socket, '
-  //     + 'Push Notification ',
-  // },
-  // {
-  //   title: 'Fotoria App',
-  //   subtitle: 'Photo Gallery',
-  //   link: 'https://fotoria-app.vercel.app/',
-  //   image: '/images/projects/fotoria.png',
-  //   date: '2022-03-28',
-  //   desc:
-  //     'Launched a Realtime & Current Date and Time '
-  //     + 'React, Firebase'
-  //     + 'This site is still on update...',
-  // },
-
-  // {
-  //   title: 'My First App',
-  //   subtitle: 'Live Current Date and Time',
-  //   link: 'https://mohammadaahnaaf.github.io/my-first-js-app/',
-  //   image: '/images/projects/first-app.png',
-  //   date: '2019-12-28',
-  //   desc:
-  //     'Launched a Realtime & Current Date and Time '
-  //     + 'Nothing fancy at all '
-  //     + 'This site uses 5 lines of simple javascript only.',
-  // },
 ];
 
 export default data;

@@ -1,42 +1,33 @@
 /* eslint-disable max-len */
 const positions = [
-  {
-    company: 'AI Trade Inc, Orlando, Florida',
-    position: 'Frontend Developer',
-    link: 'https://www.aitrade.ai',
-    daterange: 'May 2024 - Present',
-    points: [
-      'Working in various AI based trading apps.',
-      'Built production, on-line, end-to-end optimized web app with NextJS, Tailwind and Shadcdn.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-    ],
-  },
-  {
-    company: 'E-Testpaper',
-    position: 'Frontend Developer',
-    link: 'https://www.etestpaper.net/',
-    daterange: 'Jan 2024 - Apr 2024',
-    points: [
-      'Developed the first ever digital testpaper app for HSC students in Bangladesh.',
-      'Built production, on-line, end-to-end optimized web app with NextJS and Tailwind.',
-      'Implemented Google Tag Manager, ReCaptcha and various layers of security protections.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-    ],
-  },
 
   {
-    company: 'SevenTech',
-    position: 'Frontend Developer',
-    link: 'https://www.seventech.com.bd/',
-    daterange: 'May 2022 - August 2023',
+    company: 'MUNCHIES DELIVERIES LIMITED',
+    position: 'Lead Software Engineer (Former), Technical Advisor (Current)',
+    link: 'https://munchies.com.bd/',
+    daterange: 'June 2022 - January 2024',
     points: [
-      'Worked in the e-com website.',
-      'Built production, on-line, end-to-end optimized web app with NextJS and Tailwind.',
-      'Implemented Google Tag Manager, ReCaptcha and various layers of security protections.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
+      'Elevated to Lead Software Engineer in February 2023, showcasing effective leadership within the engineering team.',
+      'Led the implementation of Microservices architecture using JavaScript/TypeScript, enhancing scalability for a platform with 70k+ users and 300+ restaurants.',
+      'Managed maintenance for three Flutter applications, ensuring optimal performance for a diverse user base.',
+      'Spearheaded the optimization of legacy APIs, resulting in a significant reduction in response times for improved user experience.',
+      'Oversaw a full-stack development team of 5 engineers, ensuring streamlined operations and successful project outcomes.',
+      'Transitioned to a role as Technical Advisor in January 2024, providing guidance and expertise to the engineering team for continued success.'
     ],
   },
- 
+  {
+    company: 'Cookspace',
+    position: 'Software Engineer (Part-time, Remote)',
+    link: 'https://play.google.com/store/apps/details?id=co.cookspace.user&hl=en',
+    daterange: 'July 2020 - January 2022',
+    points: [
+      "Contributed to Flutter Mobile App Development for Customer and Deliveryman applications.",
+      "Led versatile Flutter Desktop POS System development for cross-platform use.",
+      "Implemented performance optimization and maintained clear code architecture.",
+      "Played a pivotal role in Flutter Mobile App Development, ensuring a seamless user experience, and participating in NestJS API Development and Database Design."
+    ]
+    ,
+  }
 ];
 
 export default positions;

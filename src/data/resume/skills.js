@@ -9,54 +9,49 @@ const skills = [
   },
   {
     title: 'Node.JS',
-    competency: 4,
+    competency: 3,
     category: ['Backend', 'Javascript'],
   },
   {
     title: 'React',
-    competency: 5,
+    competency: 1,
     category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Next.JS',
-    competency: 5,
-    category: ['Web Development', 'Javascript', 'Typescript'],
   },
   {
     title: 'Bash',
     competency: 2,
     category: ['Tools', 'Languages'],
   },
+  {
+    title: 'Amazon Web Services',
+    competency: 4,
+    category: ['Web Development', 'Tools'],
+  },
   // {
-  //   title: 'Amazon Web Services',
-  //   competency: 4,
+  //   title: 'Heroku',
+  //   competency: 2,
   //   category: ['Web Development', 'Tools'],
   // },
   {
-    title: 'Heroku',
-    competency: 3,
-    category: ['Web Development', 'Tools'],
-  },
-  {
     title: 'MongoDB',
-    competency: 3,
+    competency: 5,
     category: ['Backend', 'Databases'],
   },
-  // {
-  //   title: 'ElasticSearch',
-  //   competency: 2,
-  //   category: ['Backend', 'Databases'],
-  // },
-  // {
-  //   title: 'Flutter',
-  //   competency: 5,
-  //   category: ['Mobile'],
-  // },
-  // {
-  //   title: 'Redis',
-  //   competency: 3,
-  //   category: ['Web Development', 'Databases'],
-  // },
+  {
+    title: 'ElasticSearch',
+    competency: 2,
+    category: ['Backend', 'Databases'],
+  },
+  {
+    title: 'Flutter',
+    competency: 5,
+    category: ['Mobile','Android','iOS'],
+  },
+  {
+    title: 'Redis',
+    competency: 3,
+    category: ['Web Development', 'Databases'],
+  },
   // {
   //   title: 'Data Mining',
   //   competency: 3,
@@ -64,18 +59,13 @@ const skills = [
   // },
   {
     title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Firebase',
     competency: 4,
-    category: ['Web Development', 'JSON', 'Backend'],
+    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'NestJS',
     competency: 2,
-    category: ['Web Development', 'Javascript', 'Typescript'],
+    category: ['Web Development', 'Javascript'],
   },
   // {
   //   title: 'Flask',
@@ -92,11 +82,11 @@ const skills = [
   //   competency: 2,
   //   category: ['Tools', 'Data Engineering'],
   // },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
+  // {
+  //   title: 'Google Cloud Compute',
+  //   competency: 2,
+  //   category: ['Tools', 'Web Development'],
+  // },
   // {
   //   title: 'Numpy',
   //   competency: 3,
@@ -123,18 +113,18 @@ const skills = [
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 4,
+    title: 'HTML + CSS',
+    competency: 2,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
-    competency: 3,
+    competency: 2,
     category: ['Languages', 'Python'],
   },
   {
     title: 'C++',
-    competency: 4,
+    competency: 2,
     category: ['Languages'],
   },
   // {
@@ -157,11 +147,11 @@ const skills = [
   //   competency: 3,
   //   category: ['Data Science', 'Javascript'],
   // },
-  // {
-  //   title: 'GraphQL',
-  //   competency: 1,
-  //   category: ['Web Development', 'Databases'],
-  // },
+  {
+    title: 'GraphQL',
+    competency: 1,
+    category: ['Web Development', 'Databases'],
+  },
   // {
   //   title: 'Pandas',
   //   competency: 5,

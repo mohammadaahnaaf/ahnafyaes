@@ -36,7 +36,7 @@ const positions = [
       'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
     ],
   },
- 
+
 ];
 
 export default positions;

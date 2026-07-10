@@ -2,24 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-
 import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
-import ScrollToTop from '../components/Template/ScrollToTop';
 
-const Main = (props) => (
+const Main = ({
+  title, description, children, fullPage,
+}) => (
   <HelmetProvider>
-    <ScrollToTop />
     <Helmet titleTemplate="%s | Ahnafya" defaultTitle="Ahnafya">
-      {props.title && <title>{props.title}</title>}
-      <meta name="description" content={props.description} />
+      {title && <title>{title}</title>}
+      <meta name="description" content={description} />
     </Helmet>
     <div id="wrapper">
       <Navigation />
       <div id="main">
-        {props.children}
+        {children}
       </div>
-      {props.fullPage ? null : <SideBar />}
+      {fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
 );

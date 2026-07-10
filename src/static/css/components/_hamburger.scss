@@ -5,7 +5,11 @@
 }
 
 .menu-hover {
- padding: 0 1em;
+  padding: 0 1em;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
 }
 
 .menu-hover:hover {

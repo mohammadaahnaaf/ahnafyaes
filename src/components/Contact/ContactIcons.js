@@ -1,12 +1,9 @@
 import React from 'react';
-import { Github } from 'react-bootstrap-icons';
-import { Facebook } from 'react-bootstrap-icons';
-import { Instagram } from 'react-bootstrap-icons';
-import { Linkedin } from 'react-bootstrap-icons';
-import { Twitter } from 'react-bootstrap-icons';
+import {
+  Github, Facebook, Instagram, Linkedin, Twitter,
+} from 'react-bootstrap-icons';
 
 // import data from '../../data/contact';
-
 
 const data = [
   {
@@ -33,7 +30,7 @@ const data = [
     link: 'https://twitter.com/aahnafiya',
     label: 'Twitter',
     icon: <Twitter />,
-  }
+  },
 ];
 
 const ContactIcons = () => (

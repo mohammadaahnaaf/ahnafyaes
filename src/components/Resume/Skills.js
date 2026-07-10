@@ -16,45 +16,10 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = handleProps({ categories: props.categories, skills: props.skills });
+    this.handleChildClick = this.handleChildClick.bind(this);
   }
 
-  getRows() {
-    // search for true active categories
-    const actCat = Object.keys(this.state.buttons).reduce((cat, key) => (
-      this.state.buttons[key] ? key : cat
-    ), 'All');
-
-    return this.state.skills.sort((a, b) => {
-      let ret = 0;
-      if (a.competency > b.competency) ret = -1;
-      else if (a.competency < b.competency) ret = 1;
-      else if (a.category[0] > b.category[0]) ret = -1;
-      else if (a.category[0] < b.category[0]) ret = 1;
-      else if (a.title > b.title) ret = 1;
-      else if (a.title < b.title) ret = -1;
-      return ret;
-    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
-      .map((skill) => (
-        <SkillBar
-          categories={this.props.categories}
-          data={skill}
-          key={skill.title}
-        />
-      ));
-  }
-
-  getButtons() {
-    return Object.keys(this.state.buttons).map((key) => (
-      <CategoryButton
-        label={key}
-        key={key}
-        active={this.state.buttons}
-        handleClick={this.handleChildClick}
-      />
-    ));
-  }
-
-  handleChildClick = (label) => {
+  handleChildClick(label) {
     this.setState((prevState) => {
       // Toggle button that was clicked. Turn all other buttons off.
       const buttons = Object.keys(prevState.buttons).reduce((obj, key) => ({
@@ -67,13 +32,55 @@ class Skills extends Component {
     });
   }
 
+  getRows() {
+    const { skills } = this.state;
+    const { categories } = this.props;
+
+    // search for true active categories
+    const { buttons } = this.state;
+    const actCat = Object.keys(buttons).reduce((cat, key) => (
+      buttons[key] ? key : cat
+    ), 'All');
+
+    return skills.sort((a, b) => {
+      let ret = 0;
+      if (a.competency > b.competency) ret = -1;
+      else if (a.competency < b.competency) ret = 1;
+      else if (a.category[0] > b.category[0]) ret = -1;
+      else if (a.category[0] < b.category[0]) ret = 1;
+      else if (a.title > b.title) ret = 1;
+      else if (a.title < b.title) ret = -1;
+      return ret;
+    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
+      .map((skill) => (
+        <SkillBar
+          categories={categories}
+          data={skill}
+          key={skill.title}
+        />
+      ));
+  }
+
+  getButtons() {
+    const { buttons } = this.state;
+    return Object.keys(buttons).map((key) => (
+      <CategoryButton
+        label={key}
+        key={key}
+        active={buttons}
+        handleClick={this.handleChildClick}
+      />
+    ));
+  }
+
   render() {
     return (
       <div className="skills">
         <div className="link-to" id="skills" />
         <div className="title">
           <h3>Skills</h3>
-          <p>Note: I think these sections are silly, but everyone seems to have one.
+          <p>
+            Note: I think these sections are silly, but everyone seems to have one.
             Here is a *mostly* honest overview of my skills.
           </p>
         </div>

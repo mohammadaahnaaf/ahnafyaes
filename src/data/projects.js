@@ -2,8 +2,8 @@
 
 const data = [
   {
-    title: "ETestPaper (Client Project)",
-    subtitle: "Educational Platform",
+    title: 'ETestPaper (Client Project)',
+    subtitle: 'Educational Platform',
     image: 'images/projects/etestpaper.png',
     link: 'https://e-test-paper-website.vercel.app',
     date: '2024-01-01',
@@ -14,35 +14,35 @@ const data = [
       + 'Tailwind, '
       + 'NodeJS'
       + 'Git, '
-      + 'Vercel, '
+      + 'Vercel, ',
   },
   {
-    title: "TradeCopy",
-    subtitle: "Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.",
+    title: 'TradeCopy',
+    subtitle: 'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.',
     image: 'images/projects/tradecopy.png',
     link: 'https://www.tradecopy.io',
     date: '2024-05-12',
     desc:
-      `Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at ${<a href='https://www.aitrade.ai/'>AI Trade Inc</a>}`
+      'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at AI Trade Inc. Includes '
       + 'NextJS, '
       + 'TailwindCSS, '
       + 'ShadCDN, '
       + 'Bitbucket, '
-      + 'ReChart, '
+      + 'ReChart, ',
   },
   {
-    title: "BacktestData",
-    subtitle: "Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.",
+    title: 'BacktestData',
+    subtitle: 'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.',
     image: 'images/projects/backtestdata.png',
     link: 'https://www.backtestdata.com/',
     date: '2024-06-12',
     desc:
-      `BacktestData.com is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at ${<a href='https://www.aitrade.ai/'>AI Trade Inc</a>}`
+      'BacktestData.com is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at AI Trade Inc. Includes '
       + 'NextJS, '
       + 'TailwindCSS, '
       + 'ShadCDN, '
       + 'ReChart, '
-      + 'Bitbucket, '
+      + 'Bitbucket, ',
   },
   {
     title: 'Ahnafia Tech Web App (Project)',
@@ -58,7 +58,7 @@ const data = [
       + 'MaterialUI ',
   },
   {
-    title: "Wander Woman (Task)",
+    title: 'Wander Woman (Task)',
     subtitle: "An Women's Travel Site",
     image: 'images/projects/wander-woman.png',
     link: 'https://wander-women-task.vercel.app',
@@ -68,10 +68,10 @@ const data = [
       + 'NextJS, '
       + 'Tailwind, '
       + 'Git, '
-      + 'Vercel, '
+      + 'Vercel, ',
   },
   {
-    title: "Puzzellia (Project)",
+    title: 'Puzzellia (Project)',
     subtitle: 'Math Games App',
     image: 'images/projects/puzzellia.png',
     link: 'https://puzzellia.vercel.app/',
@@ -82,11 +82,11 @@ const data = [
       + 'NextJS, '
       + 'Tailwind, '
       + 'Git, '
-      + 'Vercel, '
+      + 'Vercel, ',
   },
 
   {
-    title: "RedRich (Project)",
+    title: 'RedRich (Project)',
     subtitle: 'Hotel, Resort App',
     image: 'images/projects/redrich.png',
     link: 'https://red-rich.vercel.app/',
@@ -98,7 +98,7 @@ const data = [
       + 'Tailwind, '
       + 'MongoDB, '
       + 'Git, '
-      + 'Vercel, '
+      + 'Vercel, ',
   },
   {
     title: 'EF Dev Task (Task)',

@@ -1,20 +1,20 @@
 const degrees = [
   {
-    school: 'National University, Bangladesh (ISTT)',
+    school: 'National University, Bangladesh',
     degree: 'BSc. in Electronics & Communication Engineering (ECE)',
-    link: 'https://www.istt.edu.bd/',
-    year: '2019 - running',
+    link: 'https://www.istt.edu.bd',
+    year: '2019 - 2023',
   },
   {
     school: 'Birshreshtha Munshi Abdur Rouf Public College',
     degree: 'HSC, Science',
-    link: 'https://www.abdurroufcollege.ac.bd/',
-    year: '2017 - 2018',
+    link: 'https://www.abdurroufcollege.ac.bd',
+    year: '2016 - 2018',
   },
   {
     school: 'Ibn Taimiya School & College',
     degree: 'SSC, Science',
-    link: 'http://www.eduitsc.com/',
+    link: 'http://www.eduitsc.com',
     year: '2013 - 2016',
   },
 ];

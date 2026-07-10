@@ -2,7 +2,22 @@
 
 const data = [
   {
-    title: 'ETestPaper (Client Project)',
+    title: 'AFS LMS',
+    subtitle: 'Educational Platform',
+    image: 'images/projects/afs.png',
+    link: 'https://acsfutureschool.com',
+    date: '2024-01-01',
+    desc:
+      'Built for AFS LMS , this an educational website for 6-10 grade students to learn and test their preparations before final HSC exams. In this project, my role was as a frontend developer. includes '
+      + 'API, '
+      + 'NextJS, '
+      + 'Tailwind, '
+      + 'NodeJS'
+      + 'Git, '
+      + 'Vercel, ',
+  },
+  {
+    title: 'ETestPaper',
     subtitle: 'Educational Platform',
     image: 'images/projects/etestpaper.png',
     link: 'https://e-test-paper-website.vercel.app',
@@ -16,34 +31,7 @@ const data = [
       + 'Git, '
       + 'Vercel, ',
   },
-  {
-    title: 'TradeCopy',
-    subtitle: 'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.',
-    image: 'images/projects/tradecopy.png',
-    link: 'https://www.tradecopy.io',
-    date: '2024-05-12',
-    desc:
-      'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at AI Trade Inc. Includes '
-      + 'NextJS, '
-      + 'TailwindCSS, '
-      + 'ShadCDN, '
-      + 'Bitbucket, '
-      + 'ReChart, ',
-  },
-  {
-    title: 'BacktestData',
-    subtitle: 'Tradecopy.io is an AI based Trading platform. I have worked in this project as Frontend Developer.',
-    image: 'images/projects/backtestdata.png',
-    link: 'https://www.backtestdata.com/',
-    date: '2024-06-12',
-    desc:
-      'BacktestData.com is an AI based Trading platform. I have worked in this project as Frontend Developer. I have worked in this project during my career at AI Trade Inc. Includes '
-      + 'NextJS, '
-      + 'TailwindCSS, '
-      + 'ShadCDN, '
-      + 'ReChart, '
-      + 'Bitbucket, ',
-  },
+
   {
     title: 'Ahnafia Tech Web App (Project)',
     subtitle: 'E-commerce App',

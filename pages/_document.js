@@ -20,9 +20,9 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/images/favicon/manifest.json" />
-        <meta property="og:image" content="/images/me.png" />
+        <meta property="og:image" content="/images/me-2.png" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/images/me.png" />
+        <meta name="msapplication-TileImage" content="/images/me-2.png" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

@@ -38,8 +38,8 @@ function SideBar() {
   return (
     <section id="sidebar">
       <section id="intro">
-        <Link target="_blank" href="/images/me.png" className="logo">
-          <img src="/images/me.png" alt="Mohammed Ahnaf" />
+        <Link target="_blank" href="/images/me-2.png" className="logo">
+          <img src="/images/me-2.png" alt="Mohammed Ahnaf" />
         </Link>
         <header>
 

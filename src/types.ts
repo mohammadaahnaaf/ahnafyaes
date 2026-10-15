@@ -6,12 +6,13 @@ export interface Route {
   path: string;
 }
 
+// Wrap text in **double asterisks** to highlight it.
 export interface Project {
   title: string;
   subtitle: string;
-  image: string;
+  image?: string;
   link?: string;
-  date: string;
+  date?: string;
   desc: string;
 }
 
@@ -49,7 +50,7 @@ export interface SkillGroup {
 
 export interface Reference {
   name: string;
-  title: string;
+  title?: string;
   link?: string;
 }
 

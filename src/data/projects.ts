@@ -1,139 +1,49 @@
-// TODO Add a couple lines about each project
+/* eslint-disable max-len */
 import type { Project } from '../types';
 
 const data: Project[] = [
   {
     title: 'AFS LMS',
-    subtitle: 'Educational Platform',
+    subtitle: 'Learning Management System',
     image: 'images/projects/afs.png',
     link: 'https://acsfutureschool.com',
     date: '2024-01-01',
-    desc:
-      'Built for AFS LMS , this an educational website for 6-10 grade students to learn and test their preparations before final HSC exams. In this project, my role was as a frontend developer. includes '
-      + 'API, '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'NodeJS'
-      + 'Git, '
-      + 'Vercel, ',
+    desc: 'A full-stack LMS with live classes, recorded lectures and in-app exams on web and mobile, plus clubs, community and live chat. Reached **100K+ active users** in its first 3 months with a healthy **53.6% new vs 46.4% returning** split.',
   },
   {
-    title: 'ETestPaper',
-    subtitle: 'Educational Platform',
+    title: 'E-Testpaper',
+    subtitle: 'Digital Test Paper Platform',
     image: 'images/projects/etestpaper.png',
-    link: 'https://e-test-paper-website.vercel.app',
+    link: 'https://www.etestpaper.net/',
     date: '2024-01-01',
-    desc:
-      'Built for ETestPaper , this an educational website for HSC students to learn and test their preparations before final HSC exams. In this project, my role was as a frontend developer. includes '
-      + 'API, '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'NodeJS'
-      + 'Git, '
-      + 'Vercel, ',
-  },
-
-  {
-    title: 'Ahnafia Tech Web App (Project)',
-    subtitle: 'E-commerce App',
-    image: 'images/projects/ahnafia-tech.png',
-    link: 'https://ahnafia-tech.vercel.app/',
-    date: '2021-08-21',
-    desc:
-      'Built for Ahnafia Tech , this a tech related e-commerce web app . includes '
-      + 'API, '
-      + 'Stripe, '
-      + 'React, '
-      + 'MaterialUI ',
+    desc: 'Conceptualized, built and launched a digital test paper app for students and educators: **100K+ downloads** in 2 years, revenue over **2 Cr BDT**, and a **4 / 5** average user rating.',
   },
   {
-    title: 'Wander Woman (Task)',
-    subtitle: "An Women's Travel Site",
-    image: 'images/projects/wander-woman.png',
-    link: 'https://wander-women-task.vercel.app',
-    date: '2023-11-15',
-    desc:
-      'Built for Wander Woman , this a a travel site web app for women. includes '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'Git, '
-      + 'Vercel, ',
+    title: 'MatchBD',
+    subtitle: 'Matrimonial Platform',
+    image: 'images/projects/matchbd.jpg',
+    link: 'https://www.matchbd.com/',
+    desc: 'A modern matrimonial platform for Bangladesh and the global Bangladeshi community, with **privacy-first, verified, mutual-interest** matchmaking on web and Android.',
   },
   {
-    title: 'Puzzellia (Project)',
-    subtitle: 'Math Games App',
-    image: 'images/projects/puzzellia.png',
-    link: 'https://puzzellia.vercel.app/',
-    date: '2023-07-20',
-    desc:
-      'Built for Puzzellia , this a math games web app for kids to learn math, geomatry, science, geography by playing various educational games . includes '
-
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'Git, '
-      + 'Vercel, ',
-  },
-
-  {
-    title: 'RedRich (Project)',
-    subtitle: 'Hotel, Resort App',
-    image: 'images/projects/redrich.png',
-    link: 'https://red-rich.vercel.app/',
-    date: '2023-07-12',
-    desc:
-      'Built for Red Rich club , this a Hotel, Resort web app . includes '
-      + 'NestJS, '
-      + 'NextJS, '
-      + 'Tailwind, '
-      + 'MongoDB, '
-      + 'Git, '
-      + 'Vercel, ',
+    title: 'AFS Community',
+    subtitle: 'AI-Powered Learning Community',
+    link: 'https://acsfutureschool.com',
+    desc: 'A learning community for Grade 6 to SSC students, where the dedicated AI model **“Curiosity”** answers their questions with proper sources from textbooks.',
   },
   {
-    title: 'EF Dev Task (Task)',
-    subtitle: 'Dev Task Application',
-    image: 'images/projects/ef.png',
-    link: 'https://ef-frontend-one.vercel.app/',
-    date: '2023-08-19',
-    desc:
-      'EF DEV TASK is a dev task from Electronic First. Electronic First is a video games selling company based in Dubai, UAE. This a task app made with VueJS and css. includes '
-      + 'HTML 5, '
-      + 'VueJS, '
-      + 'Vanila CSS ',
+    title: 'Dazzling by Nafisa',
+    subtitle: 'Jewellery E-commerce',
+    image: 'images/projects/dazzling-by-nafisa.jpg',
+    link: 'https://dazzling-by-nafisa.vercel.app/',
+    desc: 'An online storefront for **handpicked jewellery** from Dhaka: jhumkas, chandbalis, necklaces, bangles and bridal sets, delivered all over Bangladesh.',
   },
-  // {
-  //   title: "Ahnafia's Bazar (Project)",
-  //   subtitle: 'E-commerce App',
-  //   image: 'images/projects/ahnafia-bazar.png',
-  //   link: 'https://ahnafias-bazar.netlify.app/',
-  //   date: '2021-01-20',
-  //   desc:
-  //     'Built for Ahnafia Bazar , this a e-commerce business web app . includes '
-  //     + 'API, '
-  //     + 'Stripe, '
-  //     + 'CommerceJS, '
-  //     + 'ReactJS, MaterialUI, '
-  //     + 'And many more...'
-  //   ,
-  // },
-
   {
-    title: 'SevenTech (Client Project)',
-    subtitle: 'Tech related E-commerce App',
-    image: 'images/projects/seventech.png',
-    link: 'https://www.seventech.com.bd/',
-    date: '2022-04-22',
-    desc:
-      'Built for SevenTech , this a tech related e-commerce web app . includes '
-      + 'NextJS v-13, '
-      + 'Tailwind, '
-      + 'MongoDB, '
-      + 'AWS, '
-      + 'Vercel, '
-      + 'Git, '
-      + 'NextJS',
+    title: 'ঋ - Ree',
+    subtitle: 'Heritage Brand',
+    link: 'https://ree.bd',
+    desc: 'A brand that brings stories, symbols and heritage forward into something made for now. **Coming soon.**',
   },
-
 ];
 
 export default data;

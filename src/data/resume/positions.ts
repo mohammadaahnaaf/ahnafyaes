@@ -3,6 +3,21 @@ import type { Position } from '../../types';
 
 const positions: Position[] = [
   {
+    company: 'Munchies',
+    position: 'Senior Frontend Engineer',
+    link: 'https://www.munchiesbd.com',
+    daterange: 'Dec 2024 - Present',
+    points: [
+      'Developed a next-gen, futuristic UI for the customer web portal with **pixel-perfect** design matching.',
+      'Worked with **bKash, SSL** and other payment gateways, plus a custom cart management system.',
+      'Built responsive UI components focused on the best possible UX.',
+      'Kept package dependencies **minimal** to reduce build time.',
+      'Integrated **push notifications, authentication & location** modules.',
+      'Used Git to maintain multiple projects across different **franchise services**.',
+      'Worked on a **multi-vendor admin** management system.',
+    ],
+  },
+  {
     company: 'ILM.ai',
     position: 'Fullstack Engineer',
     link: 'https://ilmai.co.uk',
@@ -26,21 +41,6 @@ const positions: Position[] = [
       'Designed notification and activity interfaces for high-traffic environments with **10,000+ concurrent users**, focusing on responsive updates and minimal latency.',
       'Built an AI-based learning community for Grade 6 to SSC students, where the dedicated AI model **“Curiosity”** answers their questions with proper sources from textbooks.',
       'Optimized frontend caching and state management (**Redux / Zustand / React Query**) to efficiently handle real-time data streams and reduce unnecessary re-renders.',
-    ],
-  },
-  {
-    company: 'Munchies',
-    position: 'Senior Frontend Engineer',
-    link: 'https://www.munchiesbd.com',
-    daterange: 'Dec 2024 - Present',
-    points: [
-      'Developed a next-gen, futuristic UI for the customer web portal with **pixel-perfect** design matching.',
-      'Worked with **bKash, SSL** and other payment gateways, plus a custom cart management system.',
-      'Built responsive UI components focused on the best possible UX.',
-      'Kept package dependencies **minimal** to reduce build time.',
-      'Integrated **push notifications, authentication & location** modules.',
-      'Used Git to maintain multiple projects across different **franchise services**.',
-      'Worked on a **multi-vendor admin** management system.',
     ],
   },
   {

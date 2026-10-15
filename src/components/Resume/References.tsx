@@ -19,7 +19,7 @@ const References = ({ data = [] }: ReferencesProps) => (
           <span className="chip chip-lilac">
             {ref.link ? <a href={ref.link}>{ref.name}</a> : ref.name}
           </span>
-          <span className="reference-title">{ref.title}</span>
+          {ref.title && <span className="reference-title">{ref.title}</span>}
         </li>
       ))}
     </ul>

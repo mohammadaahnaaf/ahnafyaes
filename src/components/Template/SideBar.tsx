@@ -124,7 +124,7 @@ function SideBar() {
         <p className="copyright">
           &copy; Mohammed Ahnaf
           {' '}
-          <Link href="/">ahnafyaes.tech</Link>
+          <Link href="/">ahnafya.com</Link>
           .
         </p>
       </section>

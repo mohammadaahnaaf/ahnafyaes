@@ -47,20 +47,6 @@
 		}
 	}
 
-	.courses {
-		padding-top: 1.6em;
-		.title {
-			text-align: center;
-		}
-		.course-list {
-			text-align: center;
-
-			h4 {
-				white-space: nowrap;
-			}
-		}
-	}
-
 	.skills {
 		margin-top: 2em;
 		.title {
@@ -98,37 +84,5 @@
 		text-transform: none;
 		padding-top: 0.3em;
 		margin-bottom: 1em;
-	}
-}
-
-.courses .course-number {
-	display: inline;
-}
-.courses .course-name {
-	display: inline;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.7em;
-  font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
-  margin-top: -1em;
-  text-transform: uppercase;
-}
-
-.courses ul li{
-  display: inline;
-}
-
-.course-dot {
-	display: inline;
-	// display: none;
-}
-
-@include breakpoint(small) {
-	.course-dot {
-		display: none;
-	}
-	.course-container a{
-		display: block;
 	}
 }

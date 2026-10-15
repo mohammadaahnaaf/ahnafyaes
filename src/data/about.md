@@ -1,11 +1,11 @@
 
 # Intro
 
-I am a entrepreneur enthusiast. Currently working as a frontend web application developer. where I build modern web application with [React](https://reactjs.org) and at scale. I am particularly interested in projects that touch health and safety, imaging, social impact, AI, and aerospace. If you think I can be helpful to you or would like to meet me, please feel free to get in touch.
+I'm MD Ahnafur Rahman, a software engineer from Dhaka, Bangladesh. I work across the stack with [React](https://react.dev), [NextJS](https://nextjs.org), TypeScript and NodeJS, and I've spent the last few years building products for education, food delivery, AI and trading: an LMS at ACS Future School that reached 100K+ active users in its first 3 months, the customer experience at Munchies, and real-time trading dashboards for AI Trade Inc. If you think I can be helpful to you or would like to meet me, please feel free to [get in touch](/contact).
 
 # Currently
 
-I'm learing design patterns , Flutter , System Design, Backend Development and so on
+I'm a Senior Frontend Engineer at [Munchies](https://www.munchiesbd.com) and I take on freelance frontend & UI/UX work. Most recently, I spent two months as a Fullstack Engineer at [ILM.ai](https://ilmai.co.uk), building AI tutoring features. On the side, I'm learning design patterns, Flutter, system design and backend development.
 
 # Some history
 

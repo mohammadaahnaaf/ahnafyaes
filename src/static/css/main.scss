@@ -64,8 +64,11 @@
 	@import 'pages/contact';
 	@import 'pages/notFound';
 	@import 'pages/resume';
-	@import 'pages/skills';
 	@import 'pages/stats';
+
+// Retro tech theme (loaded last so it can refine the template).
+
+	@import 'retro';
 
 
 	.name-slider {

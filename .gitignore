@@ -48,3 +48,6 @@ build/
 
 # Nohup
 nohup.out
+
+# TypeScript
+*.tsbuildinfo

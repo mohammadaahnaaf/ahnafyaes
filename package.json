@@ -11,8 +11,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
-    "analyze": "next build --analyze"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "analyze": "next build --analyze",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -28,7 +29,6 @@
     "dayjs": "^1.10.4",
     "gh-pages": "^3.1.0",
     "next": "^13.5.11",
-    "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
     "react": "^18.3.1",
     "react-bootstrap-icons": "^1.7.2",
@@ -43,13 +43,20 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
+    "@types/node": "^18.19.130",
+    "@types/react": "^18.3.31",
+    "@types/react-burger-menu": "^2.8.7",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "sass": "^1.101.0",
-    "source-map-explorer": "^2.5.2"
+    "source-map-explorer": "^2.5.2",
+    "typescript": "^5.9.3"
   },
   "browserslist": {
     "production": [

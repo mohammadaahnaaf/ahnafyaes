@@ -6,25 +6,40 @@
     "es2021": true
   },
   "extends": ["airbnb"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "warnOnUnsupportedTypeScriptVersion": false
   },
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   },
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
     "react/prop-types": "off",
+    "react/require-default-props": "off",
     "import/no-extraneous-dependencies": "off",
     "import/extensions": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error", { "functions": false }],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error"
   },
   "ignorePatterns": [".next/", "node_modules/", "public/"]
 }

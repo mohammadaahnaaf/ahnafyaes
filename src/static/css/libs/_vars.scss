@@ -20,26 +20,40 @@
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:				('Courier New', monospace),
-		family-heading:				('Raleway', Helvetica, sans-serif),
+		family:						('IBM Plex Mono', 'Courier New', monospace),
+		family-fixed:				('IBM Plex Mono', 'Courier New', monospace),
+		family-display:				('VT323', 'Courier New', monospace),
+		family-heading:				('Space Mono', 'Courier New', monospace),
 		weight:						400,
 		weight-bold:				700,
 		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
-		kerning-heading:			0.25em
+		weight-heading-bold:		700,
+		weight-heading-extrabold:	700,
+		kerning-heading:			0.08em
+	);
+
+// Highlight tones (light backgrounds for key information).
+	$tones: (
+		yellow:						#fff2a8,
+		mint:						#d3f4e0,
+		sky:						#d6eaff,
+		lilac:						#e6dcff,
+		peach:						#ffdcc8
 	);
 
 // Palette.
 	$palette: (
-		bg:							#ffffff,
-		bg-alt:						#f4f4f4,
-		fg:							#646464,
-		fg-bold:					#3c3b3b,
-		fg-light:					#aaaaaa,
-		border:						rgba(160,160,160,0.3),
-		border-bg:					rgba(160,160,160,0.075),
-		border-alt:					rgba(160,160,160,0.65),
-		accent:						#2e59ba
+		bg:							#fffcf4,
+		bg-alt:						#f2ede1,
+		fg:							#3a362d,
+		fg-bold:					#1d1b16,
+		fg-light:					#7a7466,
+		border:						rgba(29,27,22,0.2),
+		border-bg:					rgba(29,27,22,0.04),
+		border-alt:					rgba(29,27,22,0.5),
+		accent:						#e2552d,
+		ink:						#1d1b16,
+		screen:						#16150f,
+		phosphor:					#7ee787,
+		amber:						#ffd166
 	);

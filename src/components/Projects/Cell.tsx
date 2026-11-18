@@ -27,7 +27,9 @@ const Cell = ({ data }: CellProps) => {
           <p className="cell-subtitle">{data.subtitle}</p>
           {data.date && <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>}
         </header>
-        {data.link ? <a href={data.link} className={previewClassName}>{preview}</a> : <div className={previewClassName}>{preview}</div>}
+        {data.link
+          ? <a href={data.link} className={previewClassName}>{preview}</a>
+          : <div className={previewClassName}>{preview}</div>}
         <div className="description">
           <p><Highlight text={data.desc} /></p>
         </div>

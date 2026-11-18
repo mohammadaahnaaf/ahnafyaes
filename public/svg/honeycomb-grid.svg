@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Honeycomb grid</title>
+  <desc>A transparent grid of regular hexagons.</desc>
+  <defs>
+    <pattern id="honeycomb" width="96" height="55.425626" patternUnits="userSpaceOnUse">
+      <path d="M0 27.712813 16 0h32l16 27.712813-16 27.712813H16L0 27.712813m64 0h32" stroke="#1d1b16" stroke-width="1.25" stroke-linejoin="round"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h1600v1000H0z" fill="url(#honeycomb)"/>
+</svg>

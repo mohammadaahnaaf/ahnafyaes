@@ -11,6 +11,7 @@ export interface Project {
   title: string;
   subtitle: string;
   image?: string;
+  imageCrop?: 'browser-frame';
   link?: string;
   date?: string;
   desc: string;

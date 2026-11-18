@@ -56,6 +56,15 @@
       width: 100%;
     }
 
+    // These 2940 x 1912 screenshots include a browser frame. Show only the
+    // content rectangle: 44px from each side, 76px from the top, 10px below.
+    &.image-crop-browser img {
+      display: block;
+      margin: calc(-100% * 76 / 2852) calc(-100% * 44 / 2852) calc(-100% * 10 / 2852);
+      max-width: none;
+      width: calc(100% * 2940 / 2852);
+    }
+
     &:hover {
       img {
         @include vendor( 'transform', 'scale(1.05)');

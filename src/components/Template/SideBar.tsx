@@ -35,8 +35,31 @@ function SideBar() {
     }
   }, [currentIndex]);
 
+  // Tell the CSS how much of the screen is left over once the sidebar is
+  // shown, so it can stop scrolling exactly when its bottom comes into view.
+  const sidebarRef = React.useRef<HTMLElement>(null);
+
+  React.useEffect(() => {
+    const sidebar = sidebarRef.current;
+    if (!sidebar) return undefined;
+
+    const update = () => {
+      sidebar.style.setProperty('--sidebar-room', `${window.innerHeight - sidebar.offsetHeight}px`);
+    };
+
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(sidebar);
+    window.addEventListener('resize', update);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('resize', update);
+    };
+  }, []);
+
   return (
-    <section id="sidebar">
+    <section id="sidebar" ref={sidebarRef}>
       <section id="intro">
         <Link target="_blank" href="/images/me-2.png" className="logo">
           <img src="/images/me-2.png" alt="Mohammed Ahnaf" />

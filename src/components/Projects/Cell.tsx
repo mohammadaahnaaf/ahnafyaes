@@ -9,6 +9,7 @@ interface CellProps {
 }
 
 const Cell = ({ data }: CellProps) => {
+  const previewClassName = data.imageCrop === 'browser-frame' ? 'image image-crop-browser' : 'image';
   const preview = data.image
     ? <img src={`/${data.image}`} alt={data.title} />
     : (
@@ -26,7 +27,7 @@ const Cell = ({ data }: CellProps) => {
           <p className="cell-subtitle">{data.subtitle}</p>
           {data.date && <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>}
         </header>
-        {data.link ? <a href={data.link} className="image">{preview}</a> : <div className="image">{preview}</div>}
+        {data.link ? <a href={data.link} className={previewClassName}>{preview}</a> : <div className={previewClassName}>{preview}</div>}
         <div className="description">
           <p><Highlight text={data.desc} /></p>
         </div>

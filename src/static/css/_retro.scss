@@ -12,14 +12,21 @@ $soft-shadow: 3px 3px 0 $ink;
 	50% { opacity: 0; }
 }
 
-// Page: graph paper with a faint CRT scanline overlay.
+// Page: a fixed honeycomb grid with a faint CRT scanline overlay.
 
 	body {
 		background-color: _palette(bg-alt);
-		background-image:
-			linear-gradient(rgba(29, 27, 22, 0.06) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(29, 27, 22, 0.06) 1px, transparent 1px);
-		background-size: 24px 24px;
+		isolation: isolate;
+
+		&::before {
+			background: url('/svg/honeycomb-grid.svg') center / cover no-repeat;
+			content: '';
+			inset: 0;
+			opacity: 0.1;
+			pointer-events: none;
+			position: fixed;
+			z-index: -1;
+		}
 
 		&::after {
 			background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.025) 0 1px, transparent 1px 3px);
@@ -341,6 +348,21 @@ $soft-shadow: 3px 3px 0 $ink;
 
 	#sidebar > * {
 		border-top: dashed 2px _palette(border-alt);
+	}
+
+	// Desktop: the sidebar scrolls with the page until its bottom comes into
+	// view, then stays put while the main column keeps scrolling. A sidebar
+	// shorter than the screen simply stays pinned under the top bar.
+	// --sidebar-room (screen height minus sidebar height) is set in SideBar.tsx.
+	@media screen and (min-width: 1281px) {
+		#sidebar {
+			align-self: flex-start;
+			position: sticky;
+			top: min(
+				calc(3.5em + #{_size(section-spacing)}),
+				calc(var(--sidebar-room, 100vh) - #{_size(section-spacing)})
+			);
+		}
 	}
 
 	#intro {
